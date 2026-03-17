@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>JS Unit Tests</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mocha/mocha.css">
+<style>body{font-family:Arial;padding:20px;}</style>
+</head>
+<body>
+
+<h1>JS Unit Testing Results</h1>
+<div id="mocha"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/mocha/mocha.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chai/chai.js"></script>
+<script>
+  mocha.setup('bdd');
+</script>
+
+<!-- Import test module -->
+<script type="module" src="../test/test.js"></script>
+
+</body>
+</html>
